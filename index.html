@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggy quiz</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dog Guesser Quiz</h1>
+        <button onclick="startGame()" class="btn-start">Start</button>
+        <section class="stats hide">
+                <h2>Congratulations!</h2>
+                <p class="final-stats"></p>
+                <img class="baby" src="	https://web.archive.org/web/20090830200258/http://www.geocities.com/sanjhapunjab/babyjatt.gif" alt="">
+                <button onclick="init()">Try Again?</button>
+
+        </section>
+        <form class="quiz hide" onsubmit="check(event)">
+            <div class="score"></div>
+            <section class="question">
+                <img class="doggy" src="" alt="">
+                <div class="choice-container">
+                    <div class="wrapper">
+                        <input type="radio" name="1" required>
+                        <label>arf</label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="1">
+                        <label>aer</label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="1">
+                        <label>dwqdqwd</label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="1">
+                        <label>dwqdwq</label>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <img class="doggy" src="" alt="">
+                <div class="choice-container">
+                    <div class="wrapper">
+                        <input type="radio" name="2" required>
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="2">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="2">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="2">
+                        <label></label>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <img class="doggy" src="" alt="">
+                <div class="choice-container">
+                    <div class="wrapper">
+                        <input type="radio" name="3" required>
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="3">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="3">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="3">
+                        <label></label>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <img class="doggy" src="" alt="">
+                <div class="choice-container">
+                    <div class="wrapper">
+                        <input type="radio" name="4" required>
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="4">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="4">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="4">
+                        <label></label>
+                    </div>
+                </div>
+            </section>
+            <section class="question">
+                <img class="doggy" src="" alt="">
+                <div class="choice-container">
+                    <div class="wrapper">
+                        <input type="radio" name="5" required>
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="5">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="5">
+                        <label></label>
+                    </div>
+                    <div class="wrapper">
+                        <input type="radio" name="5">
+                        <label></label>
+                    </div>
+                </div>
+            </section>
+            <button class="submit" type="submit">Submit</button>
+            
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
